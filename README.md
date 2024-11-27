@@ -12,6 +12,8 @@ This guide provides detailed instructions for deploying n8n on Render using Dock
 ### 2. Post-Deployment Configuration
 After the service is deployed, configure the following environment variables in the Render dashboard:
 
+<img width="1107" alt="Screenshot 2024-11-27 at 19 02 03" src="https://github.com/user-attachments/assets/6021d971-7895-418f-b154-042723e6b359">
+
 - **`N8N_EDITOR_BASE_URL`**  
   Set this to the full URL of your deployed n8n instance (e.g., `https://your-n8n-domain.onrender.com`).
 
@@ -25,6 +27,7 @@ After the service is deployed, configure the following environment variables in 
 1. Navigate to your service in the Render dashboard.
 2. Go to the **Environment Variables** section.
 3. Add the variables as described above.
+
 
 ### 3. Restart the Service
 After adding the environment variables, restart your web service in the Render dashboard to apply the changes.
