@@ -2,7 +2,7 @@ services:
   - type: web
     name: n8n
     env: docker
-    region: oregon # optional (defaults to oregon)
+    region: singapore # optional (defaults to oregon)
     plan: starter # optional (defaults to starter)
     branch: main # optional (defaults to master)
     # dockerCommand: ./webdis.sh # optional (defaults to Dockerfile command)
