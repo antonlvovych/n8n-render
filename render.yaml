@@ -28,6 +28,15 @@ services:
         fromDatabase:
           name: n8n-database
           property: password
+      # Timezone configuration, can be used to set the default timezone for workflows
+      - key: GENERIC_TIMEZONE
+        value: ""
+      # Base URL for the n8n editor, typically used to access the UI from a browser
+      - key: N8N_EDITOR_BASE_URL
+        value: ""
+      # URL for handling webhook events, must match the domain where n8n is deployed
+      - key: WEBHOOK_URL
+        value: ""
     disk:
       name: n8n-disk
       mountPath: /home/node/.n8n
