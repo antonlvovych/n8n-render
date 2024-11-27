@@ -2,9 +2,9 @@ services:
   - type: web
     name: n8n
     env: docker
-    region: singapore # optional (defaults to oregon)
-    plan: starter # optional (defaults to starter)
-    branch: main # optional (defaults to master)
+    region: singapore
+    plan: starter
+    branch: main
     numInstances: 1
     healthCheckPath: /healthz
     envVars:
@@ -36,3 +36,4 @@ services:
 databases:
   - name: n8n-database
     plan: free
+    region: singapore
