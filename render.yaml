@@ -5,7 +5,6 @@ services:
     region: singapore # optional (defaults to oregon)
     plan: starter # optional (defaults to starter)
     branch: main # optional (defaults to master)
-    # dockerCommand: ./webdis.sh # optional (defaults to Dockerfile command)
     numInstances: 1
     healthCheckPath: /healthz
     envVars:
